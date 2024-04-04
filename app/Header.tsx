@@ -3,7 +3,6 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import {ScrollDownPrompt} from "@/app/ScrollDownPrompt";
-import {ThreeDCardDemo} from "@/app/CardDemo";
 import {PerspectiveImage} from "@/app/PerspectiveImage";
 import {HeaderGradientAnimation} from "@/app/HeaderGradientAnimation";
 
