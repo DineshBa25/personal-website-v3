@@ -12,7 +12,7 @@ export function ScrollDownPrompt() {
     };
 
     return (
-        <div className="mt-8 ">
+        <div>
             {isVisible && (
                     <motion.div {...arrowAnimation}>
                         <center>

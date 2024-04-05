@@ -9,7 +9,7 @@ import {HeaderGradientAnimation} from "@/app/HeaderGradientAnimation";
 export function Header() {
     return (
         <HeaderGradientAnimation className="flex flex-col items-center justify-center p-4 pt-10">
-            <div className="flex flex-col justify-center items-center md:flex-row md:justify-between lg:px-20 xl:px-40 2xl:px-60">
+            <div className="flex flex-col mb-5 justify-center items-center md:flex-row md:justify-between lg:px-20 xl:px-40 2xl:px-60">
 
                 <motion.div
                     initial={{ x: -50, rotate: -40 }}
@@ -36,10 +36,9 @@ export function Header() {
                     >
                         <h2 className="text-md mt-1 text-blue-400 md:text-xl">Honors CS Student at Texas A&M University</h2>
                     </motion.div>
+                    <ScrollDownPrompt/>
                 </div>
             </div>
-            {/* This part now follows document flow and should be positioned under the header content */}
-            <ScrollDownPrompt/>
         </HeaderGradientAnimation>
     );
 }
