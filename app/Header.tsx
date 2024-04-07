@@ -36,7 +36,6 @@ export function Header() {
                     >
                         <h2 className="text-md mt-1 text-blue-400 md:text-xl">Honors CS Student at Texas A&M University</h2>
                     </motion.div>
-                    <ScrollDownPrompt/>
                 </div>
             </div>
         </HeaderGradientAnimation>
