@@ -56,7 +56,7 @@ export const HeaderGradientAnimation = ({ children, ...props }) => {
             onMouseMove={handleMouseMove}
             style={{
                 ...props.style,
-                background: `linear-gradient(${gradientDirection}deg, rgb(108, 0, 162), rgb(0, 17, 82)`,
+                background: `linear-gradient(${gradientDirection}deg, rgba(108, 0, 162, 0.5), rgba(0, 17, 82, 0.5)`,
             }}
             className={className}
         >
