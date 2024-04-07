@@ -16,14 +16,16 @@
   }
 }
 
+
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+          rgba(0, 0, 0, 0.85),
+          rgba(0, 0, 0, 0.85)
+  ),
+  url('../public/aggie-park-bg-blur.png');
+  background-size: 100%;
 }
 
 @layer utilities {
@@ -42,5 +44,29 @@ body {
   transform-origin: 0%;
   z-index: 50;
 }
+
+/* WorkExperienceCard.module.css */
+.cardContainer {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+@media (min-width: 768px) {
+  .cardContainer {
+    flex-direction: row;
+    padding: 20px 60px;
+  }
+}
+
 
 
