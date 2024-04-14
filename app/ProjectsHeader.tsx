@@ -21,9 +21,9 @@ export function ProjectsHeader() {
                 variants={headerVariants}
                 initial="hidden"
                 animate={inView ? "visible" : "hidden"}
-                className="flex flex-col w-full items-center justify-center text-center mb-5 lg:px-20 xl:px-40 2xl:px-60"
+                className="flex flex-col w-full items-center justify-center text-center lg:px-20 xl:px-40 2xl:px-60"
             >
-                <h1 className="text-3xl md:text-4xl lg:text-5xl text-blue-700 font-bold tracking-tight">Projects</h1>
+                <h1 className="text-3xl md:text-4xl lg:text-5xl text-blue-700 font-bold tracking-tight">Project Showcase</h1>
                 <div className="w-full h-1 my-5 bg-gradient-to-l from-transparent via-blue-700 to-transparent" />
             </motion.div>
 
