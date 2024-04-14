@@ -37,7 +37,7 @@ export const WorkExperienceCard: React.FC<WorkExperienceCardProps> = ({ logo, de
             variants={cardVariants}
         >
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flex: 1 }}>
-                <img src={logo} alt="logo" style={{ height: '100px', borderRadius: '20px', marginBottom: '20px' }}/>
+                <img src={logo} alt="logo" style={{ height: '100px', width: 'auto', borderRadius: '20px', marginBottom: '20px' }}/>
                 <motion.p
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -61,7 +61,7 @@ export const WorkExperienceCard: React.FC<WorkExperienceCardProps> = ({ logo, de
             </div>
 
             <div style={{ flex: 1, paddingLeft: '20px' }}>
-                <ul style={{ listStyleType: 'none', padding: 20, background: "#181818", borderRadius:20 }} >
+                <ul style={{ listStyleType: 'none', padding: 20, borderRadius:20 }} className={"bg-neutral-800"} >
                     {bulletPoints.map((point, index) => (
                         <li key={index} style={{ marginBottom: '10px', position: 'relative', paddingLeft: '20px' }}>
                             <span style={{
