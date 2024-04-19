@@ -14,13 +14,10 @@ export function PerspectiveImage() {
 
     return (
         <motion.div
-            initial={{ x: -50, rotate: -40 }}
-            animate={{ x: -10, rotate: 0 }}
-            transition={{ ease: "easeIn", duration: 1 }}
             onMouseMove={handleMouseMove}
             onMouseLeave={() => setStyle({ rotateX: 0, rotateY: 0, scale: 1 })}
             style={{
-                perspective: 1000, // Adjust this value for more/less depth
+                perspective: 3000, // Adjust this value for more/less depth
                 ...style
             }}
         >
@@ -33,7 +30,7 @@ export function PerspectiveImage() {
                 }}
             >
                 <div className="border-4 z-10 border-gray-400 rounded-full">
-                    <Image className="rounded-full" src="/profile-picture.jpeg" alt="Dinesh Balakrishnan" width={200} height={200} layout="intrinsic" />
+                    <Image className="rounded-full" src="/profile-picture.png" alt="Dinesh Balakrishnan" width={200} height={200} layout="intrinsic" />
                 </div>
             </motion.div>
         </motion.div>

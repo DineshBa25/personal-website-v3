@@ -41,7 +41,7 @@ export const CardItem = ({
 }) => {
     return (
         <Tag
-            className={cn("w-20 flex-shrink-0 border-4 border-white rounded-2xl", className)}
+            className={cn("w-20 flex-shrink-0 border-8a border-neutral-800 rounded-2xl", className)}
             {...rest}
         >
             {children}
