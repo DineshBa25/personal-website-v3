@@ -160,7 +160,7 @@ export default function Home() {
             className="overflow-x-hidden mt-8"
         >
             <ScrollDownPrompt />
-            <NavBar scrollToTop={scrollToTop} scrollToExperience={scrollToExperience} scrollToProjects={scrollToProjects} />
+            <NavBar scrollToTop={scrollToTop} scrollToExperience={scrollToExperience} scrollToProjects={scrollToProjects} showBackToHome={false}/>
             <motion.div
                 className="progress-bar"
                 style={{ scaleX: scrollYProgress }}
