@@ -1,5 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faArrowLeft, faArrowsUpToLine, faArrowUp, faChevronUp} from '@fortawesome/free-solid-svg-icons';
 
 // @ts-ignore
 export default function NavBar({ scrollToTop, scrollToExperience, scrollToProjects, showBackToHome}) {
@@ -13,11 +15,13 @@ export default function NavBar({ scrollToTop, scrollToExperience, scrollToProjec
                 {scrollToTop ?
                 <li>
                     <motion.div
-                        initial={{ opacity: 0, x: -10 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.5 }}
+                        initial={{ opacity: 0, y: -10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: 0.6 }}
                     >
-                        <button onClick={scrollToTop} className={"p-3 rounded-2xl hover:bg-neutral-950 hover:text-gray-700 text-gray-600"}>Go to top</button>
+                        <button onClick={scrollToTop} className={"p-3 rounded-2xl hover:bg-neutral-950 hover:text-gray-700"}>
+                            <FontAwesomeIcon className={"text-gray-500"} icon={faArrowsUpToLine}/>
+                        </button>
                     </motion.div>
                 </li>
                     : null}
@@ -51,7 +55,9 @@ export default function NavBar({ scrollToTop, scrollToExperience, scrollToProjec
                         transition={{ duration: 0.5, delay: 0.6 }}
                     >
                         <a href={"/"}>
-                            <button className={" p-3 rounded-2xl hover:bg-neutral-950 hover:text-gray-700"}>Back to Home</button>
+                            <button className={"p-3 rounded-2xl hover:bg-neutral-950 hover:text-gray-700"}>
+                                <FontAwesomeIcon icon={faArrowLeft} className="mr-2" />                                Back to Home
+                            </button>
                         </a>
                     </motion.div>
                 </li>
