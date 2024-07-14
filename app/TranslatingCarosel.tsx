@@ -15,7 +15,7 @@ export function TranslatingCarosel() {
                 transition={{ ease: "easeIn", duration: 1 }}
             >
                 <CardContainer>
-                    <CardItem translateZ="100" className="min-w-fit flex-shrink-0">
+                    <CardItem translateZ="100" className="w-100 flex-shrink-0">
                         <Image
                             src="/app-images/BudgetTC Budget Book Dark.png"
                             width="500"
@@ -24,7 +24,7 @@ export function TranslatingCarosel() {
                             alt="thumbnail"
                         />
                     </CardItem>
-                    <CardItem translateZ="100" className="min-w-fit flex-shrink-0">
+                    <CardItem translateZ="100" className="w-100 flex-shrink-0">
                         <Image
                             src="/app-images/Sharetea Final Images/Screenshot 2024-02-01 at 2.33.39 PM.png"
                             width="500"
