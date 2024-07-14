@@ -1,6 +1,5 @@
 "use client";
 import React, {useRef, useState} from 'react';
-import Image from 'next/image';
 import { Header } from "@/app/Header";
 import NavBar from "@/app/NavBar"; // import NavBar component
 import { motion, useScroll } from "framer-motion";
@@ -10,8 +9,6 @@ import { WorkExperienceCard } from './WorkExperienceCard';
 import {WorkExperienceHeader} from "@/app/WorkExperienceHeader";
 import {ScrollDownPrompt} from "@/app/ScrollDownPrompt";
 import {ProjectsHeader} from "@/app/ProjectsHeader";
-import {Footer} from "@/app/Footer";
-import ProjectCarousel from "@/app/ProjectCarousel";
 import ProjectCard from "@/components/projectCard";
 import { useAnimation, useInView } from 'framer-motion';
 import { useEffect } from 'react';
@@ -19,9 +16,9 @@ import { useEffect } from 'react';
 export default function Home() {
     const controls = useAnimation();
 
-    const topRef = useRef(null);
-    const projectHeaderRef = useRef(null);
-    const experienceHeaderRef = useRef(null);
+    const topRef = useRef<HTMLDivElement>(null);
+    const projectHeaderRef =  useRef<HTMLDivElement>(null);
+    const experienceHeaderRef =  useRef<HTMLDivElement>(null);
 
     const [isTopVisible, setTopVisible] = useState(false);
     const [isProjectHeaderVisible, setProjectHeaderVisible] = useState(false);
@@ -45,21 +42,21 @@ export default function Home() {
         },
         {
             title: 'Organization Tracker',
-            description: 'This is project 1',
+            description: 'Ruby on Rails application that allows you to seamlessly handle everything you need for an organization. Mass mailing, event Calendars, members, and so much more.',
             imageUrl: '/app-images/mabs-tracker/img.png',
             tags: ['Ruby on Rails', 'Ruby', 'JavaScript', 'HTML', 'CSS', 'pSQL', 'Docker', 'CI/CD', 'TailwindCSS'],
             featured: false
         },
         {
-            title: 'ShareTea POS',
-            description: 'This is project 1',
+            title: 'ShareTea Point of Sales System',
+            description: 'Online ordering system and website for ShareTea, complete with a beautiful and modern customer interface and an advanced admin panel with statistics.',
             imageUrl: '/app-images/Sharetea Final Images/Screenshot 2024-02-01 at 2.33.31 PM.png',
             tags: ['Next.js', 'TailwindCSS', 'JavaScript', 'HTML', 'CSS', 'pSQL'],
             featured: false
         },
         {
-            title: 'ShareTea Cashier GUI Java',
-            description: 'This is project 1',
+            title: 'ShareTea Cashier System',
+            description: 'A lightweight and efficient cashier system for processing orders and managing inventory for ShareTea.',
             imageUrl: '/app-images/Sharetea Final Images/java/img.png',
             tags: ['Java', 'JavaFX', 'FXML', 'CSS'],
             featured: false
@@ -97,10 +94,25 @@ export default function Home() {
     const { scrollYProgress } = useScroll();
     const translateX = useTransform(scrollYProgress, [0, 1], [0, -8300]);
 
-    const sectionRef = useRef<HTMLDivElement>(null); // Specify the type as HTMLDivElement
-    const scrollToSection = () => {
-        sectionRef.current?.scrollIntoView({behavior: 'smooth'});
+    const scrollToWithOffset = (ref: { current: { getBoundingClientRect: () => { (): any; new(): any; top: number; }; }; }, offset: number) => {
+        const y = ref.current.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
     };
+    const sectionRef = useRef<HTMLDivElement>(null); // Specify the type as HTMLDivElement
+    const scrollToProjects = () => {
+        // @ts-ignore
+        scrollToWithOffset(projectHeaderRef, 75)
+    };
+
+    const scrollToExperience = () => {
+        // @ts-ignore
+        scrollToWithOffset(experienceHeaderRef, 75);
+    }
+
+    const scrollToTop= () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
     useEffect(() => {
         const callback = (entries: any[], observer: any) => {
             entries.forEach(entry => {
@@ -140,7 +152,7 @@ export default function Home() {
         }
     }, [controls, isTopVisible, isProjectHeaderVisible, isExperienceHeaderVisible]);
 
-    // Your component JSX here...
+    // @ts-ignore
     return (
         <motion.main
             animate={controls}
@@ -148,7 +160,7 @@ export default function Home() {
             className="overflow-x-hidden mt-8"
         >
             <ScrollDownPrompt />
-            <NavBar scrollToSection={scrollToSection} /> {/* use NavBar component */}
+            <NavBar scrollToTop={scrollToTop} scrollToExperience={scrollToExperience} scrollToProjects={scrollToProjects} showBackToHome={false}/>
             <motion.div
                 className="progress-bar"
                 style={{ scaleX: scrollYProgress }}
@@ -213,30 +225,12 @@ export default function Home() {
             <ProjectsHeader/>
 
 
-            {/*<ProjectCarousel projects={[*/}
-            {/*        { image: "/app-images/hdc-dashboard/hdc-dashboard.png", name: "HDC Dashboard", description: "A web based desktop application that aggregates important call center information for agents and supervisors to be displayed in the call center." },*/}
-            {/*        // Add more projects here*/}
-            {/*        { image: "/app-images/BudgetTC Budget Book Dark.png", name: "BudgetTC", description: "This is project 1" },*/}
-
-            {/*        { image: "/app-images/BudgetTC Investment Tab.png", name: "Organization Tracker", description: "This is project 1" },*/}
-
-            {/*        { image: "/app-images/Sharetea Final Images/Screenshot 2024-02-01 at 2.33.31 PM.png", name: "ShareTea POS", description: "This is project 1" },*/}
-
-            {/*        { image: "/app-images/BudgetTC Java- cropped.jpg", name: "MailTC: Mail by Total Control", description: "This is project 1" },*/}
-
-            {/*    ]} />*/}
-
             <div className="flex flex-wrap justify-center gap-4 m-4" >
-                {projects.map((project, index) => (
-                    <ProjectCard key={index} {...project} />
-
+                {
+                    projects.map((project, index) => (
+                    <ProjectCard key={index} {...project}/>
                 ))}
             </div>
-
-            {/*<div ref={sectionRef} className="mt-48">*/}
-            {/*    <h2>This is the section to scroll to</h2>*/}
-            {/*</div>*/}
-            <Footer />
         </motion.main>
     );
 }
