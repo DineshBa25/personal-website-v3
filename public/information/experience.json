@@ -1,0 +1,44 @@
+{
+  "garmin": {
+    "logo": "/garmin-png/Garmin Tag-black-high-res.png",
+    "description": "Software Engineering Intern",
+    "tags": ["JavaScript", "Python", "JQuery"],
+    "duration": "Feb 2023 - Feb 2024",
+    "bulletPoints": ["Contributed to a REST-API that facilitates voice, SMS, and email messaging from phone to aircraft via satellite.",
+    "Collaborated on extensive Java Spring Boot codebases, conducting in-depth code reviews to ensure quality and functionality.",
+    "Developed numerous REST API endpoints, comprehensive unit and integration testing strategies, and CI/CD pipelines.",
+    "Revamped a satellite messaging codec to work more efficiently and be much more maintainable, saving the company time and money."
+    ]
+  },
+  "tds": {
+    "logo": "/tds_telecommunications_llc_cover.png",
+    "description": "IT-Intern (Software Engineering)",
+    "tags": ["Python", "Java", "HTML/CSS", "CI/CD", "Agile"],
+    "duration": "Feb 2023 - Feb 2024",
+    "bulletPoints": ["Effectively maintained a range of large-scale applications, using languages like Perl, PHP, Java, and Python and produced software technical documentation and produced important team documentation.",
+    "Utilized the team Kanban method for Agile software development and used JIRA and confluence for project and knowledge management.",
+    "Developed an LDAP pooled authentication proxy to authenticate all POP3/IMAP email clients for TDS email authentication; Learned to implement efficient threading using python and effectively perform distributed load testing",
+    "Produced automated CI/CD pipelines for Java and Python applications and libraries using Jenkins and Ansible"
+    ]
+  },
+  "tamu-student-coordinator":{
+    "logo": "/tamu-div-it-logo.png",
+    "description": "Student Coordinator",
+    "tags": ["JavaScript", "React", "HTML/CSS", "Customer Service", "Troubleshooting", "Leadership"],
+    "duration": "Jan 2023 - Sep 2023",
+    "bulletPoints": ["Supervised call center operations, guided technicians and addressed IT issues for over 130,000 beneficiaries.",
+    "Assessed and prioritized software outages, liaising with other IT departments and IT mission control to restore vital front-end and back-end university services promptly.",
+    "Built a modern, Web Scraping, Cloud hosted, Node.Js driven, dashboard and desktop client, providing critical metrics for call center efficiency and agent call queue data to both technicians and senior management"
+    ]
+  },
+  "tamu-technician": {
+    "logo": "/tamu-div-it-logo.png",
+    "description": "Student Technician",
+    "tags": ["Customer Service", "Troubleshooting"],
+    "duration": "Oct 2021 - Jan 2023",
+    "bulletPoints": [" Assisted campus members with diverse IT challenges, from account troubleshooting to software/network outage resolution through multiple channels: phone, chat, email, walk-ins, and ticketing systems like ServiceNow."
+    , "Always earned perfect QA scores"
+    , "Received lots of unsolicited commendable customer service feedback."
+    ]
+  }
+}
