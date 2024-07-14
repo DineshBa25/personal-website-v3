@@ -115,6 +115,7 @@ export default function Home() {
                         // @ts-ignore
                         var experienceObject = experience[key];
                         return <WorkExperienceCard
+                            key={key}
                             logo={experienceObject.logo}
                             description={experienceObject.description}
                             tags={experienceObject.tags? experienceObject.tags : []}
@@ -133,6 +134,7 @@ export default function Home() {
                         // @ts-ignore
                         var projectObject = projects[key];
                         return <ProjectCard
+                            key={key}
                             title={projectObject.title}
                             description={projectObject.description}
                             imageUrl={projectObject.imageUrl}
