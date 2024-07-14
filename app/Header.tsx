@@ -19,7 +19,7 @@ export function Header() {
                     <PerspectiveImage/>
 
                 </motion.div>
-                <div className="mt-5 md:mt-0 ml-5 md:text-left">
+                <div className="mt-5 md:mt-0 mx-10 md:text-left">
                     <motion.div
                         initial={{ x: 100, opacity: 0 }}
                         animate={{ x: 0, opacity:1 }}
