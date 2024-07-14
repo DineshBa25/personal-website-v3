@@ -4,7 +4,7 @@ import React from 'react';
 import {BackgroundGradient} from "@/components/ui/background-gradient";
 
 // @ts-ignore
-const ProjectCard = ({ title, description, imageUrl, tags, featured }) => {
+const ProjectCard = ({ title, description, imageUrl, tags, featured, pageRoot}) => {
     const imageAndTitleContent = (
         <div className="relative w-full h-48">
             <Image src={imageUrl} layout="fill" objectFit="cover" alt={title} className="transition-opacity duration-500 hover:opacity-80 rounded-t-3xl" />
@@ -22,17 +22,25 @@ const ProjectCard = ({ title, description, imageUrl, tags, featured }) => {
     );
 
     return (
-        <div className="bg-black text-white overflow-visible shadow-lg overflow-hidden p-1 h-max rounded-3xl relative">
+
+        <div className="bg-black text-white overflow-visible shadow-lg overflow-hidden p-1 h-max rounded-3xl relative sm:min-w-xs lg:max-w-xxl w-full max-w-md">
+            <a href={pageRoot} className="p-0 m-0">
             {featured ? <BackgroundGradient className={"rounded-[22px] p-3 bg-white dark:bg-black"}>{imageAndTitleContent}</BackgroundGradient> : imageAndTitleContent}
             <div className="p-4">
-                <p className="mb-4 w-80">{description}</p>
-                <div className="flex flex-wrap gap-2 w-96">
+                <p className="mb-4 w-full">{description}</p>
+                <div className="flex flex-wrap gap-2 w-full sm:w-96">
                     {tags.map((tag: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | Promise<React.AwaitedReactNode> | null | undefined, index: React.Key | null | undefined) => (
                         <span key={index} className="bg-gray-700 px-3 py-1 rounded-full text-sm">{tag}</span>
                     ))}
                 </div>
+                <button className="mt-4 p-2 rounded-lg bg-gradient-to-r from-blue-800 to-blue-950 text-white w-full hover:from-blue-400 hover:to-blue-600">
+                    Learn more about this project
+                </button>
+
             </div>
+            </a>
         </div>
+
     );
 };
 
