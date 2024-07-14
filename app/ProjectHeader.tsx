@@ -7,9 +7,9 @@ import {HeaderGradientAnimation} from "@/app/HeaderGradientAnimation";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
-export class ProjectHeader extends React.Component<{ name: any, shortDescription: any, images: any, longDescription: any }> {
+export class ProjectHeader extends React.Component<{ name: any, shortDescription: any}> {
     render() {
-        let {name, shortDescription, images, longDescription} = this.props;
+        let {name, shortDescription} = this.props;
         return (
             <div>
             <HeaderGradientAnimation className="flex flex-col items-center justify-center p-4 pt-20">
@@ -34,15 +34,7 @@ export class ProjectHeader extends React.Component<{ name: any, shortDescription
                         </motion.div>
                     </div>
                 </div>
-            </HeaderGradientAnimation >
-                <div className={"flex flex-col md:flex-row pt-5"}>
-                    <div className={"lg:w-1/2 md:w-full md:min-w-xs md:mx-auto sm:mx-auto md:px-8 sm:px-6"}>
-                        <ImageGallery items={images}/>
-                    </div>
-                    <div className={"lg:w-1/2 md:w-full md:min-w-xs md:mx-auto sm:mx-auto md:px-8 sm:px-6 pt-5 text-lg"}>
-                        <p>{longDescription}</p>
-                    </div>
-                </div>
+                </HeaderGradientAnimation >
             </div>
 
     );
