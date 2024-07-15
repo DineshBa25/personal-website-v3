@@ -2,7 +2,7 @@
   "help-desk-central-dashboard": {
     "title": "Help Desk Central Dashboard",
     "description": "A web based desktop application that aggregates important call center information for agents and supervisors to be displayed in the call center.",
-    "imageUrl": "/app-images/help-desk-central-dashboard/exclude-hdc-dashboard.png",
+    "imageUrl": "/images/app-images/help-desk-central-dashboard/exclude-hdc-dashboard.png",
     "tags": ["React", "HTML", "CSS", "JavaScript", "Node.js", "Express", "Electron.js"],
     "featured": true,
     "shortDescription": "Custom built agent call queue, and metrics dashboard for TAMU Technology Services",
@@ -14,7 +14,7 @@
   "budgettc": {
     "title": "BudgetTC",
     "description": "The next-gen financial management platform for building a budget and tracking your expenses.",
-    "imageUrl": "/app-images/BudgetTC Budget Book Dark.png",
+    "imageUrl": "/images/app-images/BudgetTC Budget Book Dark.png",
     "tags": ["React.js", "HTML", "CSS", "Firebase", "JavaScript"],
     "featured": true,
     "shortDescription": "Add a good short description here that summarizes the project",
@@ -26,7 +26,7 @@
   "organization-tracker": {
     "title": "Organization Tracker",
     "description": "Ruby on Rails application that allows you to seamlessly handle everything you need for an organization. Mass mailing, event Calendars, members, and so much more.",
-    "imageUrl": "/app-images/mabs-tracker/img.png",
+    "imageUrl": "/images/app-images/mabs-tracker/img.png",
     "tags": ["Ruby on Rails", "Ruby", "JavaScript", "HTML", "CSS", "pSQL", "Docker", "CI/CD", "TailwindCSS"],
     "featured": false,
     "shortDescription": "Add a good short description here that summarizes the project",
@@ -38,7 +38,7 @@
   "sharetea-point-of-sales-system": {
     "title": "ShareTea Point of Sales System",
     "description": "Online ordering system and website for ShareTea, complete with a beautiful and modern customer interface and an advanced admin panel with statistics.",
-    "imageUrl": "/app-images/Sharetea Final Images/Screenshot 2024-02-01 at 2.33.31 PM.png",
+    "imageUrl": "/images/app-images/Sharetea Final Images/Screenshot 2024-02-01 at 2.33.31 PM.png",
     "tags": ["Next.js", "TailwindCSS", "JavaScript", "HTML", "CSS", "pSQL"],
     "featured": false,
     "shortDescription": "Add a good short description here that summarizes the project",
@@ -50,7 +50,7 @@
   "sharetea-cashier-system": {
     "title": "ShareTea Cashier System",
     "description": "A lightweight and efficient cashier system for processing orders and managing inventory for ShareTea.",
-    "imageUrl": "/app-images/Sharetea Final Images/java/img.png",
+    "imageUrl": "/images/app-images/Sharetea Final Images/java/img.png",
     "tags": ["Java", "JavaFX", "FXML", "CSS"],
     "featured": false,
     "shortDescription": "Add a good short description here that summarizes the project",
@@ -62,7 +62,7 @@
   "budgettc-java": {
     "title": "BudgetTC Java",
     "description": "A lightweight financial management software that allows you to build a budget and track expenses.",
-    "imageUrl": "/app-images/BudgetTC Java- cropped.jpg",
+    "imageUrl": "/images/app-images/BudgetTC Java- cropped.jpg",
     "tags": ["Java", "Swing"],
     "featured": false,
     "shortDescription": "Add a good short description here that summarizes the project",
@@ -74,7 +74,7 @@
   "cloud-condo-3d": {
     "title": "Cloud Condo 3D",
     "description": "An elaborately modeled 3D High-Rise Luxury condo in the skies of Kuala Lumpur implemented with home automation features.",
-    "imageUrl": "/app-images/Early Condo Rendering.png",
+    "imageUrl": "/images/app-images/Early Condo Rendering.png",
     "tags": ["Sketchup Pro", "Unreal Engine 5", "Blender"],
     "featured": false,
     "shortDescription": "Add a good short description here that summarizes the project",
@@ -86,7 +86,7 @@
   "modern-getaway": {
     "title": "Modern Getaway",
     "description": "A series of elaborately detailed modern homes and mansions built in Sketchup and visualized in Twinmotion",
-    "imageUrl": "/app-images/TMScreenshot_2022.05.02-16.21.17.png",
+    "imageUrl": "/images/app-images/TMScreenshot_2022.05.02-16.21.17.png",
     "tags": ["Sketchup Pro", "Twinmotion", "Blender"],
     "featured": false,
     "shortDescription": "Add a good short description here that summarizes the project",
@@ -98,7 +98,7 @@
   "tamu-cybersecurity-student-tracking-system": {
     "title": "TAMU CyberSecurity Student Tracking System",
     "description": "A modern student tracking and reporting tool tailored to the needs of the TAMU Cybersecurity Club",
-    "imageUrl": "/app-images/TAMUCC PHP Final Images/Screenshot 2024-02-02 at 3.46.17 PM.png",
+    "imageUrl": "/images/app-images/TAMUCC PHP Final Images/Screenshot 2024-02-02 at 3.46.17 PM.png",
     "tags": ["PHP", "mySQL", "HTML", "CSS"],
     "featured": false,
     "shortDescription": "Add a good short description here that summarizes the project",
