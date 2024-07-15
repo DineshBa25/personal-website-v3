@@ -1,20 +1,20 @@
 "use client";
 import React, {useRef, useState} from 'react';
-import { Header } from "@/app/Header";
-import NavBar from "@/app/NavBar"; // import NavBar component
+import { Header } from "@/components/root-page/Header";
+import NavBar from "@/components/ui/NavBar"; // import NavBar component
 import { motion, useScroll } from "framer-motion";
-import {TranslatingCarosel} from "@/app/TranslatingCarosel";
+import {TranslatingCarosel} from "@/components/root-page/TranslatingCarosel";
 import { useTransform } from "framer-motion";
 import { WorkExperienceCard } from '../components/experience/WorkExperienceCard';
 import {WorkExperienceHeader} from "@/components/experience/WorkExperienceHeader";
-import {ScrollDownPrompt} from "@/app/ScrollDownPrompt";
-import {ProjectsHeader} from "@/app/ProjectsHeader";
-import ProjectCard from "@/components/projectCard";
+import {ScrollDownPrompt} from "@/components/ui/ScrollDownPrompt";
+import {ProjectsHeader} from "@/components/project/ProjectsHeader";
+import ProjectCard from "@/components/project/ProjectCard";
 import { useAnimation, useInView } from 'framer-motion';
 import { useEffect } from 'react';
 import experience from '@/public/information/experience.json';
 import projects from '@/public/information/projects.json';
-import {Footer} from "@/app/Footer";
+import {Footer} from "@/components/root-page/Footer";
 export default function Home() {
     const controls = useAnimation();
 

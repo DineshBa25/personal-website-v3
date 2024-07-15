@@ -1,6 +1,6 @@
 {
   "garmin": {
-    "logo": "/garmin-png/Garmin Tag-black-high-res.png",
+    "logo": "/images/logos/garmin-png/Garmin Tag-black-high-res.png",
     "description": "Software Engineering Intern",
     "tags": ["JavaScript", "Python", "JQuery"],
     "duration": "Feb 2023 - Feb 2024",
@@ -11,7 +11,7 @@
     ]
   },
   "tds": {
-    "logo": "/tds_telecommunications_llc_cover.png",
+    "logo": "/images/logos/tds_telecommunications_llc_cover.png",
     "description": "IT-Intern (Software Engineering)",
     "tags": ["Python", "Java", "HTML/CSS", "CI/CD", "Agile"],
     "duration": "Feb 2023 - Feb 2024",
@@ -22,7 +22,7 @@
     ]
   },
   "tamu-student-coordinator":{
-    "logo": "/tamu-div-it-logo.png",
+    "logo": "/images/logos/tamu-div-it-logo.png",
     "description": "Student Coordinator",
     "tags": ["JavaScript", "React", "HTML/CSS", "Customer Service", "Troubleshooting", "Leadership"],
     "duration": "Jan 2023 - Sep 2023",
@@ -32,7 +32,7 @@
     ]
   },
   "tamu-technician": {
-    "logo": "/tamu-div-it-logo.png",
+    "logo": "/images/logos/tamu-div-it-logo.png",
     "description": "Student Technician",
     "tags": ["Customer Service", "Troubleshooting"],
     "duration": "Oct 2021 - Jan 2023",

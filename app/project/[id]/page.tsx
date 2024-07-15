@@ -1,6 +1,6 @@
 import React from 'react';
 import projects from '@/public/information/projects.json';
-import ProjectPage from "@/app/ProjectPage";
+import ProjectPage from "@/components/project/ProjectPage";
 import {getImageUrls} from "@/helpers/getImageUrls";
 
 interface BlogPostProps {

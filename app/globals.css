@@ -24,7 +24,7 @@ body {
           rgba(0, 0, 0, 0.70),
           rgba(0, 0, 0, 0.85)
   ),
-  url('../public/aggie-park-bg-blur.png');
+  url('../public/images/background/aggie-park-bg-blur.png');
   background-size: 100%;
   background-attachment: fixed;
 }

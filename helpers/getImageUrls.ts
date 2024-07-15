@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 
 export const getImageUrls = (id: string) => {
-    const imageDir = path.join(process.cwd(), 'public', 'app-images', id);
+    const imageDir = path.join(process.cwd(), 'public', 'images/app-images', id);
     var imageNames: string[];
     try{
         imageNames = fs.readdirSync(imageDir);
@@ -22,8 +22,8 @@ export const getImageUrls = (id: string) => {
         {
             return(
                 {
-                    original: `/app-images/${id}/${name}`,
-                    thumbnail: `/app-images/${id}/${name}`
+                    original: `/images/app-images/${id}/${name}`,
+                    thumbnail: `/images/app-images/${id}/${name}`
                 }
 
             )
