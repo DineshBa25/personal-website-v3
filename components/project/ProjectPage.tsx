@@ -8,6 +8,7 @@ import { ProjectHeader } from '@/components/project/ProjectHeader';
 import ImageGallery from "react-image-gallery";
 import ProjectInfo from "@/components/project/ProjectInfo";
 import ProjectLongDescription from "@/components/project/ProjectLongDescription";
+import ModernGetawayEmbed from "@/components/project/custom-demos/ModernGetawayEmbed";
 
 type ProjectPageProps = {
     images: any;
@@ -18,8 +19,9 @@ type ProjectPageProps = {
     githubLink: string;
     contributors: number;
     linesOfCode: string;
+    demo: string;
 };
-const ProjectPage: React.FC<ProjectPageProps> = ({ images, longDescription, shortDescription, title, tags, githubLink, contributors, linesOfCode }) => {
+const ProjectPage: React.FC<ProjectPageProps> = ({ images, longDescription, shortDescription, title, tags, githubLink, contributors, linesOfCode, demo }) => {
     const controls = useAnimation();
 
     const { scrollYProgress } = useScroll();
@@ -58,6 +60,11 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ images, longDescription, shor
                         linesOfCode={linesOfCode? linesOfCode : "0"}
                     />
                 </div>
+            </div>
+            <div className={"p-4"}>
+            {
+                (demo=="modern-getaway")? <ModernGetawayEmbed/> : null
+            }
             </div>
         </motion.main>
     );

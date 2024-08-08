@@ -32,6 +32,8 @@ const BlogPost: React.FC<BlogPostProps> = ({ params: { id } }) => {
                 contributors={projects[id].contributors}
                 // @ts-ignore
                 linesOfCode={projects[id].linesOfCode}
+                // @ts-ignore
+                demo={projects[id].demo? projects[id].demo: "none"}
             />
         );
     }

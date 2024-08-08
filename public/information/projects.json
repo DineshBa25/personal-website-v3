@@ -13,36 +13,36 @@
   },
   "budgettc": {
     "title": "BudgetTC",
-    "description": "The next-gen financial management platform for building a budget and tracking your expenses.",
+    "description": "The financial management platform for building a budget and tracking your expenses.",
     "imageUrl": "/images/app-images/budgettc/BudgetTC Budget Book Dark.png",
     "tags": ["React.js", "HTML", "CSS", "Firebase", "JavaScript"],
-    "featured": true,
-    "shortDescription": "Cloud based personal finance budgeting platform",
-    "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante non metus facilisis venenatis. Curabitur vel ipsum vel. Nulla facilisi. Sed euismod, turpis id maximus dapibus, velit dolor elementum risus, in porta magna dolor sit amet mi. Proin sed orci rutrum, dignissim ipsum convallis, feugiat risus. Nulla malesuada mauris nec enim placerat, at elementum urna blandit. Integer vitae lectus nisl. Donec.",
+    "featured": false,
+    "shortDescription": "The financial management platform for building a budget and tracking your expenses.",
+    "longDescription": "This project was my very first foray into web development. If you look at the code for this application, some of it will strike you as very ugly code and you can compare it with my later projects to see my growth. When I started this I had absolutely no clue how to make a web app. Through this project, I learned authentication, security, how to interact with databases, efficiency, managing real-time connections, and so much about user interface design.\n\n Words can't explain how many lessons were learned from this project. Although it is now abandoned, I learned to limit scope, write tests, use firebase, do styling, produce a responsive layout and how to become a excellent troubleshooter. \n\n This is a huge application and is currently poorly organized by my standards, however, it demonstrates an exceptional dedication to learning and improvement that has led me to being a successful software engineer.",
     "githubLink": "https://github.com/DineshBa25/BudgetTC-JS",
     "contributors": 1,
-    "linesOfCode": "9000+"
+    "linesOfCode": "11000+"
   },
   "organization-tracker": {
     "title": "Organization Tracker",
     "description": "Ruby on Rails application that allows you to seamlessly handle everything you need for an organization. Mass mailing, event Calendars, members, and so much more.",
     "imageUrl": "/images/app-images/organization-tracker/img.png",
     "tags": ["Ruby on Rails", "Ruby", "JavaScript", "HTML", "CSS", "pSQL", "Docker", "CI/CD", "TailwindCSS"],
-    "featured": false,
-    "shortDescription": "Add a good short description here that summarizes the project",
-    "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante non metus facilisis venenatis. Curabitur vel ipsum vel. Nulla facilisi. Sed euismod, turpis id maximus dapibus, velit dolor elementum risus, in porta magna dolor sit amet mi. Proin sed orci rutrum, dignissim ipsum convallis, feugiat risus. Nulla malesuada mauris nec enim placerat, at elementum urna blandit. Integer vitae lectus nisl. Donec.",
+    "featured": true,
+    "shortDescription": "Ruby on Rails application that allows you to seamlessly handle everything you need for an organization",
+    "longDescription": "This is a product built as a part of CSCE-431 (Software Engineering). This production application is built using ruby on rails and has a very wide scope of features including but not limited to: users can view, rsvp, sign up, and checking in for events, admins can create, edit, and delete events and announcements, Announcements are mass emailed to organization members that sign up, application is completely responsive for all screen sizes, admins can generate and view demographics and organziation reports, and so much more. \n\n  As the Project Manager for this project, I took led the development of the project, met with stakeholders routinely, discussed requirements and presented preview to customer to help adapt to their needs, and ensured that our team was on track to submit deliverables with very tight deadlines. This project gained recognition by the professor as \"being on one of the best looking and well executed projects\".",
     "githubLink": "https://github.com/DineshBa25/personal-website-v3",
     "contributors": 5,
-    "linesOfCode": "4000+"
+    "linesOfCode": "6000+"
   },
   "sharetea-point-of-sales-system": {
     "title": "ShareTea Point of Sales System",
     "description": "Online ordering system and website for ShareTea, complete with a beautiful and modern customer interface and an advanced admin panel with statistics.",
     "imageUrl": "/images/app-images/sharetea-point-of-sales-system/Screenshot 2024-02-01 at 2.33.04 PM.png",
     "tags": ["Next.js", "TailwindCSS", "JavaScript", "HTML", "CSS", "pSQL"],
-    "featured": false,
-    "shortDescription": "Add a good short description here that summarizes the project",
-    "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante non metus facilisis venenatis. Curabitur vel ipsum vel. Nulla facilisi. Sed euismod, turpis id maximus dapibus, velit dolor elementum risus, in porta magna dolor sit amet mi. Proin sed orci rutrum, dignissim ipsum convallis, feugiat risus. Nulla malesuada mauris nec enim placerat, at elementum urna blandit. Integer vitae lectus nisl. Donec.",
+    "featured": true,
+    "shortDescription": "Online ordering system and website for ShareTea.",
+    "longDescription": "This is the second of two application created with a team of 5 for Honors CSCE-331 (Intro to Software Engineering). This project is a Next.JS web application that serves to be a customer web client for placing orders and viewing a menu. As a customer the project allows you to view the menu, place and order with topping selection, with advanced menu search. For the employee/manager, this project allows you to place customer orders, view/manage/track inventory, display a dynamic menu board for the store, view advanced sales analysis and reports and more. \n\n As project lead for the project, I managed and led the development of the application. I also used my significant experience with web applications to mentor team members and tackles complex issues.",
     "githubLink": "https://github.com/DineshBa25/personal-website-v3",
     "contributors": 5,
     "linesOfCode": "4000+"
@@ -50,14 +50,14 @@
   "sharetea-cashier-system": {
     "title": "ShareTea Cashier System",
     "description": "A lightweight and efficient cashier system for processing orders and managing inventory for ShareTea.",
-    "imageUrl": "/images/app-images/Sharetea Final Images/java/img.png",
+    "imageUrl": "/images/app-images/sharetea-cashier-system/img.png",
     "tags": ["Java", "JavaFX", "FXML", "CSS"],
     "featured": false,
-    "shortDescription": "Add a good short description here that summarizes the project",
-    "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante non metus facilisis venenatis. Curabitur vel ipsum vel. Nulla facilisi. Sed euismod, turpis id maximus dapibus, velit dolor elementum risus, in porta magna dolor sit amet mi. Proin sed orci rutrum, dignissim ipsum convallis, feugiat risus. Nulla malesuada mauris nec enim placerat, at elementum urna blandit. Integer vitae lectus nisl. Donec.",
+    "shortDescription": "A lightweight cashier system for processing orders and managing inventory",
+    "longDescription": "This is one of two applications created with a team of 5 for honors CSCE-331 (Intro to Software Engineering). This application is a a lightweight user interface that interacts with an AWS postgresSQL database to provide cashiers with a way to place customer orders. This GUI also allows the manager to view/track/manage store inventory and look generate important sales reports. \n\n As project lead for the project, I managed and led the development of the application and help to train other members and tackle issues with my prior experience in JAVA development.",
     "githubLink": "https://github.com/DineshBa25/personal-website-v3",
     "contributors": 5,
-    "linesOfCode": "4000+"
+    "linesOfCode": "3000+"
   },
   "budgettc-java": {
     "title": "BudgetTC Java",
@@ -65,11 +65,11 @@
     "imageUrl": "/images/app-images/budgettc-java/BudgetTC Java- cropped.jpg",
     "tags": ["Java", "Swing"],
     "featured": false,
-    "shortDescription": "Add a good short description here that summarizes the project",
-    "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante non metus facilisis venenatis. Curabitur vel ipsum vel. Nulla facilisi. Sed euismod, turpis id maximus dapibus, velit dolor elementum risus, in porta magna dolor sit amet mi. Proin sed orci rutrum, dignissim ipsum convallis, feugiat risus. Nulla malesuada mauris nec enim placerat, at elementum urna blandit. Integer vitae lectus nisl. Donec.",
-    "githubLink": "https://github.com/DineshBa25/personal-website-v3",
+    "shortDescription": "A lightweight financial management software that allows you to build a budget and track expenses.",
+    "longDescription": "This project was created with the intention to learn how to make an application. It represents my first foray into GUI and was made completely custom without any GUI builder. I built it with Java Swing and Java; It incorporates the ideas of object oriented programing, encapsulation and inheritance.\n\n It features the ability to make a budget for expenses and income, import the expenses and income from a bank account via CSV, and then track it. It also incorporates series of investment calculators.",
+    "githubLink": "https://github.com/DineshBa25/BudgetTC-Java",
     "contributors": 1,
-    "linesOfCode": "4000+"
+    "linesOfCode": "6000+"
   },
   "cloud-condo-3d": {
     "title": "Cloud Condo 3D",
@@ -77,23 +77,24 @@
     "imageUrl": "/images/app-images/cloud-condo-3d/Early Condo Rendering.png",
     "tags": ["Sketchup Pro", "Unreal Engine 5", "Blender"],
     "featured": false,
-    "shortDescription": "Add a good short description here that summarizes the project",
-    "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante non metus facilisis venenatis. Curabitur vel ipsum vel. Nulla facilisi. Sed euismod, turpis id maximus dapibus, velit dolor elementum risus, in porta magna dolor sit amet mi. Proin sed orci rutrum, dignissim ipsum convallis, feugiat risus. Nulla malesuada mauris nec enim placerat, at elementum urna blandit. Integer vitae lectus nisl. Donec.",
+    "shortDescription": "An elaborately modeled 3D luxury condo implemented with home automation features.",
+    "longDescription": "I will probably never do 3D modeling as a profession, but this is here to show you that I am incredibly open minded and able to learn almost anything with excitement. This project is the result of lots of dedication and hundreds of hours of painstaking 3d modeling and intelligent design to make things come together. I learned a lot about developing textures, 3d modeling, and rendering efficiency. \n This project also includes experimental automation features (For example, you can trigger lights via a keyboard or motion).",
     "githubLink": "https://github.com/DineshBa25/personal-website-v3",
     "contributors": 1,
-    "linesOfCode": "4000+"
+    "linesOfCode": "400+"
   },
   "modern-getaway": {
     "title": "Modern Getaway",
     "description": "A series of elaborately detailed modern homes and mansions built in Sketchup and visualized in Twinmotion",
     "imageUrl": "/images/app-images/modern-getaway/TMScreenshot_2022.05.02-16.21.17.png",
     "tags": ["Sketchup Pro", "Twinmotion", "Blender"],
-    "featured": false,
-    "shortDescription": "Add a good short description here that summarizes the project",
-    "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante non metus facilisis venenatis. Curabitur vel ipsum vel. Nulla facilisi. Sed euismod, turpis id maximus dapibus, velit dolor elementum risus, in porta magna dolor sit amet mi. Proin sed orci rutrum, dignissim ipsum convallis, feugiat risus. Nulla malesuada mauris nec enim placerat, at elementum urna blandit. Integer vitae lectus nisl. Donec.",
+    "featured": true,
+    "shortDescription": "A series of elaborately detailed modern homes and mansions",
+    "longDescription": "I will probably never do 3D modeling as a profession, but this is here to show you that I am incredibly open minded and able to learn almost anything with excitement. This project is the result of lots of dedication and hundreds of hours of painstaking 3d modeling and intelligent design to make things come together. To pay respects to the incredible amount of hours I spent on developing this, please take a look at the home on Twinmotion cloud below.",
     "githubLink": "https://github.com/DineshBa25/personal-website-v3",
     "contributors": 1,
-    "linesOfCode": "4000+"
+    "linesOfCode": "400+",
+    "demo": "modern-getaway"
   },
   "tamu-cybersecurity-student-tracking-system": {
     "title": "TAMU CyberSecurity Student Tracking System",
@@ -101,10 +102,10 @@
     "imageUrl": "/images/app-images/tamu-cybersecurity-student-tracking-system/img.png",
     "tags": ["PHP", "mySQL", "HTML", "CSS"],
     "featured": false,
-    "shortDescription": "Add a good short description here that summarizes the project",
+    "shortDescription": "A modern student tracking and reporting tool",
     "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante non metus facilisis venenatis. Curabitur vel ipsum vel. Nulla facilisi. Sed euismod, turpis id maximus dapibus, velit dolor elementum risus, in porta magna dolor sit amet mi. Proin sed orci rutrum, dignissim ipsum convallis, feugiat risus. Nulla malesuada mauris nec enim placerat, at elementum urna blandit. Integer vitae lectus nisl. Donec.",
     "githubLink": "https://github.com/DineshBa25/personal-website-v3",
     "contributors": 1,
-    "linesOfCode": "4000+"
+    "linesOfCode": "5000+"
   }
 }

@@ -14,7 +14,7 @@ export function Footer() {
     }, []);
 
     return (
-        <footer className="w-full text-center p-4 pin-b text-gray-700">
+        <footer className="w-full text-center p-4 pin-b text-gray-200">
             Custom designed & built by Dinesh
             {lastUpdated && <p>Last updated: {lastUpdated}</p>}
         </footer>
