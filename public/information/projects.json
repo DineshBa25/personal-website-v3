@@ -6,22 +6,10 @@
     "tags": ["React", "HTML", "CSS", "JavaScript", "Node.js", "Express", "Electron.js"],
     "featured": true,
     "shortDescription": "Custom built agent call queue, and metrics dashboard for TAMU Technology Services",
-    "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante non metus facilisis venenatis. Curabitur vel ipsum vel. Nulla facilisi. Sed euismod, turpis id maximus dapibus, velit dolor elementum risus, in porta magna dolor sit amet mi. Proin sed orci rutrum, dignissim ipsum convallis, feugiat risus. Nulla malesuada mauris nec enim placerat, at elementum urna blandit. Integer vitae lectus nisl. Donec.",
-    "githubLink": "https://github.com/DineshBa25/personal-website-v3",
+    "longDescription": "This innovative application revolutionizes call center management by seamlessly aggregating data from diverse platforms. It leverages web scraping to extract real-time information from Cisco Finesse (call support) and utilizes API calls to gather data from ServiceNow (email/ticket support), Bomgar (chat support), and other miscellaneous sources. This consolidated data is then presented in a unified dashboard, displayed across 4 screens in one of the largest call centers in the area. It empowers call agents and supervisors with real-time insights into call traffic and essential center metrics, promoting efficiency and informed decision-making.\n\nThis project wasn't commissioned by TAMU IT; it was born from the initiative of two student employees. This dashboard aimed to enhance call center operations and replace an outdated, cumbersome dashboard system. It exemplifies a proactive approach to problem-solving, resourcefulness in data acquisition, and a dedication to improving real-world processes.",
+    "githubLink": "https://github.com/HDC-TAMU/hdc-dashboard",
     "contributors": 2,
     "linesOfCode": "4000+"
-  },
-  "budgettc": {
-    "title": "BudgetTC",
-    "description": "The financial management platform for building a budget and tracking your expenses.",
-    "imageUrl": "/images/app-images/budgettc/BudgetTC Budget Book Dark.png",
-    "tags": ["React.js", "HTML", "CSS", "Firebase", "JavaScript"],
-    "featured": false,
-    "shortDescription": "The financial management platform for building a budget and tracking your expenses.",
-    "longDescription": "This project was my very first foray into web development. If you look at the code for this application, some of it will strike you as very ugly code and you can compare it with my later projects to see my growth. When I started this I had absolutely no clue how to make a web app. Through this project, I learned authentication, security, how to interact with databases, efficiency, managing real-time connections, and so much about user interface design.\n\n Words can't explain how many lessons were learned from this project. Although it is now abandoned, I learned to limit scope, write tests, use firebase, do styling, produce a responsive layout and how to become a excellent troubleshooter. \n\n This is a huge application and is currently poorly organized by my standards, however, it demonstrates an exceptional dedication to learning and improvement that has led me to being a successful software engineer.",
-    "githubLink": "https://github.com/DineshBa25/BudgetTC-JS",
-    "contributors": 1,
-    "linesOfCode": "11000+"
   },
   "organization-tracker": {
     "title": "Organization Tracker",
@@ -30,22 +18,58 @@
     "tags": ["Ruby on Rails", "Ruby", "JavaScript", "HTML", "CSS", "pSQL", "Docker", "CI/CD", "TailwindCSS"],
     "featured": true,
     "shortDescription": "Ruby on Rails application that allows you to seamlessly handle everything you need for an organization",
-    "longDescription": "This is a product built as a part of CSCE-431 (Software Engineering). This production application is built using ruby on rails and has a very wide scope of features including but not limited to: users can view, rsvp, sign up, and checking in for events, admins can create, edit, and delete events and announcements, Announcements are mass emailed to organization members that sign up, application is completely responsive for all screen sizes, admins can generate and view demographics and organziation reports, and so much more. \n\n  As the Project Manager for this project, I took led the development of the project, met with stakeholders routinely, discussed requirements and presented preview to customer to help adapt to their needs, and ensured that our team was on track to submit deliverables with very tight deadlines. This project gained recognition by the professor as \"being on one of the best looking and well executed projects\".",
-    "githubLink": "https://github.com/DineshBa25/personal-website-v3",
+    "longDescription": "Developed as part of CSCE-431 (Software Engineering), this robust Ruby on Rails application offers a comprehensive suite of features. Users can seamlessly interact with events by viewing details, RSVPing, signing up, and checking in. Administrators enjoy full control over events and announcements, including creation, editing, and deletion, with the added capability of mass emailing announcements to subscribed organization members. The application's fully responsive design guarantees optimal user experience across all devices.  Moreover, administrators can generate and view insightful demographics and organization reports. \n\nAs Project Manager, I spearheaded the development process, maintaining consistent communication with stakeholders, discussing requirements, and presenting previews to the customer to ensure the application met their evolving needs. I also diligently ensured our team adhered to tight deadlines for deliverables. This project earned recognition from the professor as one of the \"best looking and well-executed projects,\" a testament to our team's commitment to excellence.",
+    "githubLink": "https://github.com/BACKED-Software/mabs",
     "contributors": 5,
-    "linesOfCode": "6000+"
+    "linesOfCode": "7000+"
   },
   "sharetea-point-of-sales-system": {
     "title": "ShareTea Point of Sales System",
     "description": "Online ordering system and website for ShareTea, complete with a beautiful and modern customer interface and an advanced admin panel with statistics.",
-    "imageUrl": "/images/app-images/sharetea-point-of-sales-system/Screenshot 2024-02-01 at 2.33.04 PM.png",
-    "tags": ["Next.js", "TailwindCSS", "JavaScript", "HTML", "CSS", "pSQL"],
+    "imageUrl": "/images/app-images/sharetea-point-of-sales-system/Screenshot 2024-02-01 at 2.32.56 PM.png",
+    "tags": ["Next.js", "TailwindCSS", "Typescript", "HTML", "CSS", "pSQL"],
     "featured": true,
     "shortDescription": "Online ordering system and website for ShareTea.",
     "longDescription": "This is the second of two application created with a team of 5 for Honors CSCE-331 (Intro to Software Engineering). This project is a Next.JS web application that serves to be a customer web client for placing orders and viewing a menu. As a customer the project allows you to view the menu, place and order with topping selection, with advanced menu search. For the employee/manager, this project allows you to place customer orders, view/manage/track inventory, display a dynamic menu board for the store, view advanced sales analysis and reports and more. \n\n As project lead for the project, I managed and led the development of the application. I also used my significant experience with web applications to mentor team members and tackles complex issues.",
-    "githubLink": "https://github.com/DineshBa25/personal-website-v3",
+    "githubLink": "https://github.com/csce-315-331-2023c/project-3-csce331-970_07c-sharetea",
     "contributors": 5,
-    "linesOfCode": "4000+"
+    "linesOfCode": "5000+"
+  },
+  "custom-authentication-platform": {
+    "title": "Custom Authentication Platform",
+    "description": "An advanced fully custom proof of concept authentication platform",
+    "imageUrl": "/images/app-images/custom-authentication-platform/Screenshot 2024-07-09 at 8.43.22 PM.png",
+    "tags": ["Next.js", "Python", "Typescript", "PostgresSQL", "HTML", "CSS"],
+    "featured": false,
+    "shortDescription": "The financial management platform for building a budget and tracking your expenses.",
+    "longDescription": "A modern implementation of an authentication platform focused on ease of use, appealing design, and security. The authentication process is fully custom and does not make use of any external apis or resources. This platform allows users to create an account, reset their password, and sign-in. There is also OTP generation so that when users forget their password, they can verify that they are themselves by providing a passcode that is sent to their email.",
+    "githubLink": "https://github.com/DineshBa25/custom-authentication-platform",
+    "contributors": 1,
+    "linesOfCode": "3000+"
+  },
+  "modern-maintainable-portfolio-v3": {
+    "title": "Modern Maintainable Portfolio-V3",
+    "description": "The modern looking portfolio designed to make you say \"wow\" and be maintainable.",
+    "imageUrl": "/images/app-images/modern-maintainable-portfolio-v3/Screenshot 2024-08-07 at 11.03.28 PM.png",
+    "tags": ["Next.js", "HTML", "CSS", "Typescript"],
+    "featured": false,
+    "shortDescription": "The financial management platform for building a budget and tracking your expenses.",
+    "longDescription": "As the third iteration of my personal website/portfolio, I sought to create a unique experience, distinct from the typical HTML Bootstrap sites or those relying on off-the-shelf UI libraries. This fully custom application embodies my vision of a personal website, prioritizing both aesthetics and maintainability.\n\nFuture updates are streamlined through several key implementations:\n\n1. Dynamic Content: Text for work experience and projects is pulled from a JSON file, eliminating the need for hardcoded HTML changes.\n\n2. Automated Image Integration: Project images are automatically fetched from their directory, simplifying the process of adding visuals.\n\n3. Real-Time Updates: The \"last updated\" date on the homepage is automatically calculated based on the latest GitHub commit, ensuring accuracy without manual intervention.\n\n4. Dynamic Project Pages: Project pages are generated from JSON data, eliminating the need to create and manage multiple individual pages.\n\nThese features collectively ensure that my portfolio remains effortlessly up-to-date and adaptable, allowing me to focus on showcasing my work rather than website maintenance.",
+    "githubLink": "https://github.com/DineshBa25/personal-website-v3",
+    "contributors": 1,
+    "linesOfCode": "3000+"
+  },
+  "budgettc": {
+    "title": "BudgetTC",
+    "description": "The financial management platform for building a budget and tracking your expenses.",
+    "imageUrl": "/images/app-images/budgettc/BudgetTC Budget Book Dark.png",
+    "tags": ["React.js", "HTML", "CSS", "Firebase", "JavaScript"],
+    "featured": false,
+    "shortDescription": "The financial management platform for building a budget and tracking your expenses.",
+    "longDescription": "This project marked my exciting debut into the world of web development. While the code may reflect the inexperience of a beginner, comparing it to my later work showcases my significant growth. I embarked on this journey with zero knowledge of web app creation, but through dedication and perseverance, I mastered essential skills like authentication, security, database interaction, efficiency optimization, real-time connection management, and user interface design.\n\nThe invaluable lessons learned from this project extend far beyond technical skills. Though now abandoned, it taught me crucial aspects of software development like scope management, test-driven development, Firebase integration, styling, responsive design, and effective troubleshooting.\n\nWhile the application's current state falls short of my current organizational standards, its sheer scale and ambition stand as a testament to my unwavering commitment to learning and self-improvement—a driving force behind my success as a software engineer.",
+    "githubLink": "https://github.com/DineshBa25/BudgetTC-JS",
+    "contributors": 1,
+    "linesOfCode": "11000+"
   },
   "sharetea-cashier-system": {
     "title": "ShareTea Cashier System",
@@ -54,10 +78,10 @@
     "tags": ["Java", "JavaFX", "FXML", "CSS"],
     "featured": false,
     "shortDescription": "A lightweight cashier system for processing orders and managing inventory",
-    "longDescription": "This is one of two applications created with a team of 5 for honors CSCE-331 (Intro to Software Engineering). This application is a a lightweight user interface that interacts with an AWS postgresSQL database to provide cashiers with a way to place customer orders. This GUI also allows the manager to view/track/manage store inventory and look generate important sales reports. \n\n As project lead for the project, I managed and led the development of the application and help to train other members and tackle issues with my prior experience in JAVA development.",
-    "githubLink": "https://github.com/DineshBa25/personal-website-v3",
+    "longDescription": "This is one of two applications created with a team of 5 for honors CSCE-331 (Intro to Software Engineering). This application is a lightweight user interface that interacts with an AWS postgresSQL database to provide cashiers with a way to place customer orders. This GUI also allows the manager to view/track/manage store inventory and look generate important sales reports. \n\n As project lead for the project, I managed and led the development of the application and help to train other members and tackle issues with my prior experience in JAVA development.",
+    "githubLink": "https://github.com/DineshBa25/Sharetea-Cashier-Client",
     "contributors": 5,
-    "linesOfCode": "3000+"
+    "linesOfCode": "4000+"
   },
   "budgettc-java": {
     "title": "BudgetTC Java",
@@ -79,7 +103,7 @@
     "featured": false,
     "shortDescription": "An elaborately modeled 3D luxury condo implemented with home automation features.",
     "longDescription": "I will probably never do 3D modeling as a profession, but this is here to show you that I am incredibly open minded and able to learn almost anything with excitement. This project is the result of lots of dedication and hundreds of hours of painstaking 3d modeling and intelligent design to make things come together. I learned a lot about developing textures, 3d modeling, and rendering efficiency. \n This project also includes experimental automation features (For example, you can trigger lights via a keyboard or motion).",
-    "githubLink": "https://github.com/DineshBa25/personal-website-v3",
+    "githubLink": "",
     "contributors": 1,
     "linesOfCode": "400+"
   },
@@ -88,10 +112,10 @@
     "description": "A series of elaborately detailed modern homes and mansions built in Sketchup and visualized in Twinmotion",
     "imageUrl": "/images/app-images/modern-getaway/TMScreenshot_2022.05.02-16.21.17.png",
     "tags": ["Sketchup Pro", "Twinmotion", "Blender"],
-    "featured": true,
+    "featured": false,
     "shortDescription": "A series of elaborately detailed modern homes and mansions",
     "longDescription": "I will probably never do 3D modeling as a profession, but this is here to show you that I am incredibly open minded and able to learn almost anything with excitement. This project is the result of lots of dedication and hundreds of hours of painstaking 3d modeling and intelligent design to make things come together. To pay respects to the incredible amount of hours I spent on developing this, please take a look at the home on Twinmotion cloud below.",
-    "githubLink": "https://github.com/DineshBa25/personal-website-v3",
+    "githubLink": "",
     "contributors": 1,
     "linesOfCode": "400+",
     "demo": "modern-getaway"
@@ -103,9 +127,9 @@
     "tags": ["PHP", "mySQL", "HTML", "CSS"],
     "featured": false,
     "shortDescription": "A modern student tracking and reporting tool",
-    "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante non metus facilisis venenatis. Curabitur vel ipsum vel. Nulla facilisi. Sed euismod, turpis id maximus dapibus, velit dolor elementum risus, in porta magna dolor sit amet mi. Proin sed orci rutrum, dignissim ipsum convallis, feugiat risus. Nulla malesuada mauris nec enim placerat, at elementum urna blandit. Integer vitae lectus nisl. Donec.",
-    "githubLink": "https://github.com/DineshBa25/personal-website-v3",
+    "longDescription": "Developed for CSCE-331 (Database Systems), this custom-built PHP, HTML, and CSS application showcases meticulous database design with ERDs and normalization techniques. The impressive feat of completing over 7,000 lines of code in just over a week further underscores its robust development.\n\nDesigned specifically for the Texas A&M Cyber Security club, this application empowers members to create and manage applications, profiles, internship history, and more. Administrators gain comprehensive control over member information, complex report generation, and event management. The application's fully custom authentication, independent of any external providers, further highlights its tailored security implementation.",
+    "githubLink": "https://github.com/DineshBa25/CSCE-310-TAMUCC-Student-Tracking-and-Reporting-Tool",
     "contributors": 1,
-    "linesOfCode": "5000+"
+    "linesOfCode": "7000+"
   }
 }

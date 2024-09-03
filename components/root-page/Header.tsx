@@ -14,17 +14,10 @@ export function Header() {
         <HeaderGradientAnimation className="flex flex-col items-center justify-center p-4 pt-20">
             <div className="flex flex-col mb-5 justify-center items-center md:flex-row md:justify-between lg:px-20 xl:px-40 2xl:px-60">
 
-                <motion.div
-                    initial={{ x: -150, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1}}
-                    transition={{ ease: "easeIn", duration: 1 }}
-                >
-                    <PerspectiveImage/>
-
-                </motion.div>
+                <PerspectiveImage/>
                 <div className="mt-5 md:mt-0 mx-10 md:text-left">
                     <motion.div
-                        initial={{ x: 100, opacity: 0 }}
+                        initial={{ x: 0, opacity: 0 }}
                         animate={{ x: 0, opacity:1 }}
                         exit={{ x: -100, opacity: 0 }}
                         transition={{ ease: "easeIn", duration: 1 }}
@@ -52,7 +45,7 @@ export function Header() {
                         <a href="https://www.linkedin.com/in/dineshba25" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
                             <FontAwesomeIcon icon={faLinkedin} size={"2xl"}/>
                         </a>
-                        <a href="/documents/Dinesh%20Balakrishnans%20Resume%20%20v2.0.3-%20Summer%202024.pdf" download className="text-red-500 hover:text-red-700">
+                        <a href="/documents/Dinesh%20Balakrishnans%20Resume%20%20v2.0.3-%20Summer%202024%20(15).pdf" download className="text-red-500 hover:text-red-700">
                             <FontAwesomeIcon icon={faDownload} size={"2xl"} className={"mr-2"}/>
                             Download Resume
                         </a>

@@ -11,30 +11,11 @@ interface WorkExperienceCardProps {
 }
 
 export const WorkExperienceCard: React.FC<WorkExperienceCardProps> = ({ logo, description, tags, duration, bulletPoints }) => {
-    // Animation variants
-    const cardVariants = {
-        offscreen: {
-            x: -100, // Start off-screen to the left
-            opacity: 0
-        },
-        onscreen: {
-            x: 0,
-            opacity: 1,
-            transition: {
-                type: "spring",
-                bounce: 0.4,
-                duration: 0.8
-            }
-        }
-    };
+
 
     return (
-        <motion.div
+        <div
             className={"cardContainer"} // Apply CSS module styles
-            initial="offscreen"
-            whileInView="onscreen"
-            viewport={{ once: true, amount: 0.8 }}
-            variants={cardVariants}
         >
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flex: 1 }}>
                 <img src={logo} alt="logo" style={{ height: '100px', width: 'auto', borderRadius: '20px', marginBottom: '20px' }}/>
@@ -79,6 +60,6 @@ export const WorkExperienceCard: React.FC<WorkExperienceCardProps> = ({ logo, de
                     ))}
                 </ul>
             </div>
-        </motion.div>
+        </div>
     );
 };
