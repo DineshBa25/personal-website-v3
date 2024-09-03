@@ -19,7 +19,7 @@ export default function NavBar({ scrollToTop, scrollToExperience, scrollToProjec
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.6 }}
                     >
-                        <button onClick={scrollToTop} className={"p-3 rounded-2xl hover:bg-neutral-950 hover:text-gray-700"}>
+                        <button onClick={scrollToTop} className={"p-3 rounded-2xl hover:text-gray-700"}>
                             <FontAwesomeIcon className={"text-gray-500"} icon={faArrowsUpToLine}/>
                         </button>
                     </motion.div>
@@ -32,7 +32,7 @@ export default function NavBar({ scrollToTop, scrollToExperience, scrollToProjec
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.2 }}
                     >
-                        <button onClick={scrollToExperience} className={" p-3 rounded-2xl hover:bg-neutral-950 hover:text-gray-700"}>Experience</button>
+                        <button onClick={scrollToExperience} className={" p-3 rounded-2xl hover:text-gray-700"}>Experience</button>
                     </motion.div>
                 </li>
                 : null}
@@ -43,7 +43,7 @@ export default function NavBar({ scrollToTop, scrollToExperience, scrollToProjec
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.4 }}
                     >
-                        <button onClick={scrollToProjects} className={" p-3 rounded-2xl hover:bg-neutral-950 hover:text-gray-700"}>Projects</button>
+                        <button onClick={scrollToProjects} className={" p-3 rounded-2xl  hover:text-gray-700"}>Projects</button>
                     </motion.div>
                 </li>
                     : null}
@@ -55,7 +55,7 @@ export default function NavBar({ scrollToTop, scrollToExperience, scrollToProjec
                         transition={{ duration: 0.5, delay: 0.6 }}
                     >
                         <a href={"/"}>
-                            <button className={"p-3 rounded-2xl hover:bg-neutral-950 hover:text-gray-700"}>
+                            <button className={"p-3 rounded-2xl hover:text-gray-700"}>
                                 <FontAwesomeIcon icon={faArrowLeft} className="mr-2" />                                Back to Home
                             </button>
                         </a>

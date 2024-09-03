@@ -3,11 +3,11 @@
     "logo": "/images/logos/garmin-png/Garmin Tag-black-high-res.png",
     "description": "Software Engineering Intern",
     "tags": ["JavaScript", "Python", "JQuery"],
-    "duration": "Feb 2023 - Feb 2024",
+    "duration": "May 2024 - Aug 2024",
     "bulletPoints": ["Contributed to a REST-API that facilitates voice, SMS, and email messaging from phone to aircraft via satellite.",
     "Collaborated on extensive Java Spring Boot codebases, conducting in-depth code reviews to ensure quality and functionality.",
     "Developed numerous REST API endpoints, comprehensive unit and integration testing strategies, and CI/CD pipelines.",
-    "Revamped a satellite messaging codec to work more efficiently and be much more maintainable, saving the company time and money."
+    "Revamped a satellite messaging codec to work more efficiently and be much more maintainable."
     ]
   },
   "tds": {
@@ -15,7 +15,7 @@
     "description": "IT-Intern (Software Engineering)",
     "tags": ["Python", "Java", "HTML/CSS", "CI/CD", "Agile"],
     "duration": "Feb 2023 - Feb 2024",
-    "bulletPoints": ["Effectively maintained a range of large-scale applications, using languages like Perl, PHP, Java, and Python and produced software technical documentation and produced important team documentation.",
+    "bulletPoints": ["Effectively maintained a range of large-scale applications, using languages like Java, Perl, and Python and produced software technical documentation and important team documentation.",
     "Utilized the team Kanban method for Agile software development and used JIRA and confluence for project and knowledge management.",
     "Developed an LDAP pooled authentication proxy to authenticate all POP3/IMAP email clients for TDS email authentication; Learned to implement efficient threading using python and effectively perform distributed load testing",
     "Produced automated CI/CD pipelines for Java and Python applications and libraries using Jenkins and Ansible"
