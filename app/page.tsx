@@ -15,8 +15,12 @@ import { useEffect } from 'react';
 import experience from '@/public/information/experience.json';
 import projects from '@/public/information/projects.json';
 import {Footer} from "@/components/root-page/Footer";
+import { AnimatePresence } from "framer-motion";
+import { JetIntro } from "@/components/root-page/JetIntro";
 export default function Home() {
     const controls = useAnimation();
+    const [showIntro, setShowIntro] = useState(true);
+    const [showPage, setShowPage] = useState(false);
 
     const topRef = useRef<HTMLDivElement>(null);
     const projectHeaderRef =  useRef<HTMLDivElement>(null);
@@ -48,6 +52,12 @@ export default function Home() {
     const scrollToTop= () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
+
+    const revealPage = () => setShowPage(true);
+    const finishIntro = () => {
+        setShowPage(true);
+        setShowIntro(false);
+    };
 
     useEffect(() => {
         const callback = (entries: any[], observer: any) => {
@@ -90,10 +100,20 @@ export default function Home() {
 
     // @ts-ignore
     return (
+        <>
+        <motion.div
+            animate={{
+                opacity: showPage ? 1 : 0,
+                clipPath: showPage ? "inset(0% 0% 0% 0%)" : "inset(100% 0% 0% 0%)",
+            }}
+            initial={{ opacity: 0, clipPath: "inset(100% 0% 0% 0%)" }}
+            style={{ transformOrigin: "50% 100%" }}
+            transition={{ duration: 1.15, ease: [0.22, 1, 0.36, 1] }}
+        >
         <motion.main
             animate={controls}
             initial={{ backgroundColor: 'rgba(0,0,0,0.46)' }}
-            className="overflow-x-hidden mt-8"
+            className="overflow-x-hidden"
         >
             <ScrollDownPrompt />
             <NavBar scrollToTop={scrollToTop} scrollToExperience={scrollToExperience} scrollToProjects={scrollToProjects} showBackToHome={false}/>
@@ -147,6 +167,10 @@ export default function Home() {
             </div>
             <Footer/>
         </motion.main>
-
+        </motion.div>
+        <AnimatePresence>
+            {showIntro && <JetIntro onReveal={revealPage} onFinish={finishIntro} />}
+        </AnimatePresence>
+        </>
     );
 }
